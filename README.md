@@ -82,5 +82,15 @@ NIO 设计背后的基石是反应器设计模式
 
 ### mina
 
+**StateMachine**
+
+- [State Design Pattern](http://sourcemaking.com/design_patterns/state)基础
+- [Chapter 14 - State Machine](https://mina.apache.org/mina-project/userguide/ch14-state-machine/ch14-state-machine.html#state-inheritance)
+-  在mina官网搜索`tapedeck`了解其版本是 [2.0.0-M2-SNAPSHO](https://git-wip-us.apache.org/repos/asf?
+p=mina.git;a=blob;f=example/pom.xml;h=91ca0225c36c4510149c493b678fafe57a86bffe;hb=07da56db652eeea1e5bdb8dafd01e8de0e87b4d1),之后下载[mina,2.0.0-M2项目](http://archive.apache.org/dist/mina/2.0.0-M2/)
+- [SLF4J: Failed to load class “org.slf4j.impl.StaticLoggerBinder”](http://stackoverflow.com/questions/7421612/slf4j-failed-to-load-class-org-slf4j-impl-staticloggerbinder):下载` slf4j-nop.jar, slf4j-simple.jar, slf4j-log4j12.jar, slf4j-jdk14.jar or logback-classic.jar`其中任一jar包添加进classpath即可
+
+
+
 
 
